@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: darkslategrey;
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+nav ul {
+  display: flex;
+  gap: 30px;
+  color: white;
+  list-style: none;
+  font-size: 24px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#hero-center{
+    text-align: center;
+    color: white;
+}
+
+
+.Content {
+  width: 500px;
+  margin: 0 auto;
+  flex: 1;
+  border: 1px;
+  margin-left: 40px;
+  justify-content: space-between;
+  padding: 30px;
+}
+footer {
+  background-color: blue;
+  height: 200px;
+}
+.FooterList {
+  margin: auto;
+  color: white;
+  padding: 30px;
+  display: flex;
+    list-style: none;
+  font-size: 24px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.listitem {
+    flex: 1;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.name {
+    text-align: center;
+}
+.Section2 {
+    display: flex;
+}
+.Quote {
+    flex: 1;
+    margin-right: 40px;
+    padding-top: 80px;
+    padding-left: 30px;
+    }
+button {
+    background-color: blue;
+    color: white;
+}
+.Section3 {
+   margin-left: 20%;
+   margin-right: 20%;
+   padding-bottom: 40px;
+   padding-top: 20px;
+}
+.Section4 {
+  display: flex;
+  list-style: none;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-bottom: 40px;
+  padding-top: 20px;
+  text-align: center;
+ }
+ .SkillList {
+  list-style: none;
+ }
+ .Discovery {
+  flex: 1;
+  list-style: none;
+ }
+ .Design {
+  flex: 1;
+  list-style: none;
+ }
+ .Testing {
+  flex: 1;
+  list-style: none;
+ }
+ #myWork {
+  text-align: center;
+ } 
+ #mySkills {
+  text-align: center;
+  padding-bottom: 10px;
+ } 
+ #skillContent {
+  text-align: center;
+ } 
+ #skillImg {
+  padding-bottom: 40px;
+ }
+ .Research {
+  display: flex;
+ }
+ .card {
+  display: flex;
+  flex: 1;
+ }
